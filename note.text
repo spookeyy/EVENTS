@@ -1,0 +1,6 @@
+when inspecting the event object that it's a bit different 
+than the standard browser event. React's event object is a 
+special object called: SyntheticBaseEvent.
+
+React has its own event system with special event handlers called SyntheticEvent.
+ That means these events also have methods that you can call like preventDefault(), stopPropagation(), and so on.
